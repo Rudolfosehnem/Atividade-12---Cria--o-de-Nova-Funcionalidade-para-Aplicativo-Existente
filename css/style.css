@@ -37,6 +37,9 @@ body {
   main {
     padding: 12px 16px;
   }
+  .main-steam{
+    text-align: center;
+  }
   p.description {
     font-size: 14px;
     line-height: 1.4;
@@ -140,7 +143,7 @@ body {
     margin-bottom: 35px;
   }
   .purchase-section {
-    background-image: linear-gradient(to bottom right, rgb(13, 10, 43), rgba(241, 241, 232, 0.822));
+    background-image: linear-gradient(to bottom right, #1B2A35, #4B5B6B);
     border-radius: 6px;
     padding: 12px;
     display: flex;
@@ -165,6 +168,10 @@ body {
   .purchase-header button:hover {
     color: white;
   }
+  .image_top{
+    border-radius: 30px;
+  
+  }
   .purchase-buttons {
     display: flex;
     gap: 12px;
@@ -181,9 +188,9 @@ body {
     user-select: none;
   }
   .cart-button {
-    background-color: #3f7f3f;
+    background-color: #59BF40;
     color: white;
-    border-radius: 6px;
+    border-radius: 3px;
     padding: 8px 16px;
     font-weight: 600;
     border: none;
@@ -201,5 +208,8 @@ body {
     cursor: pointer;
     white-space: nowrap;
   }
-
+a{
+  text-decoration: none;
+  color: #c7d5e0;
+}
   
